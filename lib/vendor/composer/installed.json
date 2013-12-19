@@ -1,0 +1,137 @@
+[
+    {
+        "name": "php-activerecord/php-activerecord",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/kla/php-activerecord.git",
+            "reference": "d6c4b929769d2d49f7af6d16ed9b68f94af9fed0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/kla/php-activerecord/zipball/d6c4b929769d2d49f7af6d16ed9b68f94af9fed0",
+            "reference": "d6c4b929769d2d49f7af6d16ed9b68f94af9fed0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2013-02-28 02:47:58",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "ActiveRecord.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "php-activerecord is an open source ORM library based on the ActiveRecord pattern.",
+        "homepage": "http://www.phpactiverecord.org/",
+        "keywords": [
+            "activerecord",
+            "orm"
+        ]
+    },
+    {
+        "name": "aura/installer-default",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/auraphp/installer-default",
+            "reference": "1.0.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/auraphp/installer-default/archive/1.0.0.zip",
+            "reference": "1.0.0",
+            "shasum": ""
+        },
+        "time": "2012-11-26 21:35:57",
+        "type": "composer-installer",
+        "extra": {
+            "class": "Aura\\Composer\\DefaultInstaller"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Aura\\Composer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Paul M. Jones",
+                "email": "pmjones88@gmail.com",
+                "homepage": "http://paul-m-jones.com"
+            }
+        ],
+        "description": "Installs Aura packages using the Composer defaults.",
+        "keywords": [
+            "aura",
+            "installer"
+        ]
+    },
+    {
+        "name": "aura/router",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/auraphp/Aura.Router",
+            "reference": "1.0.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/auraphp/Aura.Router/archive/1.0.0.zip",
+            "reference": "1.0.0",
+            "shasum": ""
+        },
+        "require": {
+            "aura/installer-default": ">=1.0.0",
+            "php": ">=5.4.0"
+        },
+        "time": "2012-11-28 00:00:00",
+        "type": "aura-package",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Aura\\Router": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD"
+        ],
+        "authors": [
+            {
+                "name": "Paul M. Jones",
+                "email": "pmjones88@gmail.com",
+                "homepage": "http://paul-m-jones.com"
+            },
+            {
+                "name": "Hari KT",
+                "email": "kthari85@gmail.com",
+                "homepage": "http://harikt.com"
+            },
+            {
+                "name": "Aura.Router Contributors",
+                "homepage": "https://github.com/auraphp/Aura.Router/contributors"
+            }
+        ],
+        "description": "The Aura Router package implements web routing; given a URI path and a copy of $_SERVER, it will extract controller, action, and parameter values for a specific route.",
+        "homepage": "http://auraphp.github.com/Aura.Router",
+        "keywords": [
+            "route",
+            "router",
+            "routing"
+        ]
+    }
+]

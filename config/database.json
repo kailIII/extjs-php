@@ -1,0 +1,10 @@
+{
+    "default": {
+        "adapter" : "mysql",
+        "host"    : "localhost",
+        "login"   : "root",
+        "password": "991809",
+        "database": "ncs-2.0",
+        "charset" : "utf8"
+    }
+}

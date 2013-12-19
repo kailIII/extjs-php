@@ -1,0 +1,28 @@
+{
+    "mysql": {
+        "adapter" : "mysql",
+        "host"    : "localhost",
+        "login"   : "username",
+        "password": "secret",
+        "database": "database",
+        // opcional "charset": "utf8"
+    },
+    "postgre": {
+        "adapter" : "pgsql",
+        "host"    : "localhost",
+        "login"   : "username",
+        "password": "secret",
+        "database": "dbname"
+    },
+    "sqlite": {
+        "adapter" : "sqlite",
+        "database": "dbname"
+    },
+    "oracle": {
+        "adapter" : "oci",
+        "host"    : "localhost",
+        "login"   : "username",
+        "password": "secret",
+        "database": "dbname"
+    }
+}

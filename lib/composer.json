@@ -1,0 +1,6 @@
+{
+	"require": {
+        "php-activerecord/php-activerecord": "dev-master",
+        "aura/router" : "1.0.0"
+	}
+}
